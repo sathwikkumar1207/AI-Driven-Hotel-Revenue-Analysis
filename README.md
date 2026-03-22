@@ -1,126 +1,175 @@
-🏨 AI Driven Hotel Revenue Analysis (Power BI Project)
-📌 Project Overview
+# 🏨 AI Driven Hotel Revenue Analysis (Power BI Project)
 
-This project presents an AI-driven hotel revenue analysis dashboard developed using Power BI. The objective is to analyze historical hotel booking data (2015–2020) and generate actionable insights related to revenue trends, customer behavior, cancellations, and future demand forecasting.
+## 🌐 Live Dashboard
+👉 https://app.powerbi.com/groups/me/reports/373a65eb-259a-4eb0-81a1-4504e2753c43?ctid=9206f595-4edd-4d55-b874-c330b03c51d7&pbi_source=linkShare  
 
-🎯 Objectives
+---
 
-Analyze hotel revenue performance
+## 📌 Project Overview
+This project presents an **AI-driven hotel revenue analysis dashboard** developed using Power BI. It analyzes historical hotel booking data (2015–2020) to generate actionable insights on revenue trends, customer behavior, cancellations, and future demand forecasting.
 
-Understand customer booking patterns
+The project leverages **business intelligence + AI-powered visuals** to support strategic decision-making in the hospitality industry.
 
-Evaluate cancellation and revenue loss impact
+---
 
-Implement AI-based forecasting for future trends
+## 🎯 Objectives
+- Analyze hotel revenue performance  
+- Understand customer booking patterns  
+- Evaluate cancellation and revenue loss impact  
+- Implement AI-based forecasting for future trends  
+- Enable data-driven decision making  
 
-Support data-driven decision making in hospitality sector
+---
 
-📊 Dataset Information
+## 📊 Dataset Information
+- **Source:** Kaggle Hotel Booking Dataset  
+- **Time Period:** 2015–2020  
+- **Records:** 100,000+  
 
-Source: Kaggle Hotel Booking Dataset
+### Data Includes:
+- Booking details  
+- Customer demographics  
+- ADR (Average Daily Rate)  
+- Market segments  
+- Lead time  
+- Cancellation status  
+- Meal and discount data  
 
-Time Period: 2015–2020
+---
 
-Total Records: 100,000+
+## 🧹 Data Preprocessing & Feature Engineering
+- Combined multiple yearly datasets into a single **Master Table**  
+- Handled missing and inconsistent values  
+- Converted date fields into proper calendar format  
 
-Data Includes:
+### Created New Features:
+- Arrival Date  
+- Total Guests  
+- Total Nights  
+- Adjusted Revenue (including discounts & meal cost)  
+- Lead Time Categories (behavior segmentation)  
 
-Booking details
+---
 
-Customer demographics
+## 🛠 Tools & Technologies
+- **Power BI** – Dashboard & Visualization  
+- **Power Query** – Data Cleaning  
+- **DAX** – Measures & Calculations  
+- **AI Visuals** – Forecast, Key Influencers, Decomposition Tree  
 
-ADR (Average Daily Rate)
+---
 
-Market segments
+# 📈 Dashboard Overview
 
-Lead time
+---
 
-Cancellation status
+## 📊 1. Revenue Intelligence Dashboard
 
-Meal and discount data
+![Revenue Dashboard](images/Screenshot 2026-02-28 200737.png)
 
-🧹 Data Preprocessing
+### 🔍 Description:
+This dashboard provides a comprehensive view of revenue performance across different dimensions.
 
-Combined multiple yearly datasets into a single Master Table
+### 📌 Key Features:
+- Total Revenue, ADR, and Revenue per Booking KPIs  
+- Revenue trend over time (with forecasting)  
+- Revenue by hotel type and market segment  
+- Monthly seasonal revenue analysis  
 
-Cleaned missing and inconsistent values
+### 💡 Insights:
+- City hotels generate higher revenue compared to resort hotels  
+- Revenue peaks during mid-year months (seasonality effect)  
 
-Converted date fields into proper calendar format
+---
 
-Created derived columns:
+## 👥 2. Customer & Guest Analytics Dashboard
 
-Arrival Date
+![Customer Dashboard](images/Screenshot 2026-02-28 200803.png)
 
-Total Guests
+### 🔍 Description:
+This dashboard focuses on understanding customer behavior and booking patterns.
 
-Total Nights
+### 📌 Key Features:
+- Total Guests and Average Lead Time  
+- Customer type segmentation  
+- Meal preference analysis  
+- Lead time category distribution  
 
-Adjusted Revenue
+### 💡 Insights:
+- Most bookings come from transient customers  
+- Medium lead-time bookings dominate the dataset  
+- Meal preferences impact guest distribution  
 
-Lead Time Categories
+---
 
-📈 Dashboards Created
+## ⚠️ 3. Loss, Cancellation & Risk Analysis Dashboard
 
-Revenue Intelligence Dashboard
+![Loss Dashboard](images/Screenshot 2026-02-28 200816.png)
 
-Customer & Guest Analytics Dashboard
+### 🔍 Description:
+This dashboard analyzes cancellations and their financial impact.
 
-Loss, Cancellation & Discount Impact Dashboard
+### 📌 Key Features:
+- Cancellation rate %  
+- Revenue loss analysis  
+- Market segment impact on cancellations  
+- Monthly revenue loss trends  
 
-AI Future Forecast & Strategic Analysis Dashboard
+### 💡 Insights:
+- High lead-time bookings have higher cancellation risk  
+- Certain market segments contribute more to revenue loss  
+- Cancellation trends vary across months  
 
-🤖 AI Features Implemented
+---
 
-Revenue Forecasting (Time Series Analysis)
+## 🤖 4. AI Future Forecast & Strategic Analysis
 
-Key Influencers Visual (AI-driven insights)
+![AI Dashboard](images/Screenshot 2026-02-28 200833.png)
 
-Decomposition Tree (Root cause analysis)
+### 🔍 Description:
+This dashboard leverages AI-powered visuals to predict future trends and identify key business drivers.
 
-Predictive trend visualization
+### 📌 Key Features:
+- Revenue forecasting (time-series prediction)  
+- Booking demand trend analysis  
+- Decomposition Tree (driver analysis)  
+- Key Influencers (AI-based insights)  
+- Seasonal demand heatmap  
 
-Seasonal demand heatmap
+### 💡 Insights:
+- Predictive models highlight future revenue trends  
+- AI identifies key factors influencing cancellations  
+- Seasonal patterns support strategic planning  
 
-🛠 Tools & Technologies
+---
 
-Power BI (Visualization & Modeling)
+## 🤖 AI Features Implemented
+- Revenue Forecasting (Time Series Analysis)  
+- Key Influencers Visual (AI-driven insights)  
+- Decomposition Tree (Root cause analysis)  
+- Predictive demand trend visualization  
+- Seasonal heatmap analysis  
 
-Power Query (Data Cleaning)
+---
 
-DAX (Measures & Calculations)
+## 📌 Key Insights
+- Market segments significantly impact revenue  
+- High lead-time bookings increase cancellation risk  
+- Seasonal trends strongly influence demand  
+- Discounts directly affect adjusted revenue  
+- AI forecasting enables better decision-making  
 
-AI Visuals (Forecast, Key Influencers, Decomposition Tree)
+---
 
-📌 Key Insights
+## 🚀 Future Enhancements
+- Integration with real-time booking data  
+- Machine learning forecasting models  
+- Dynamic pricing optimization  
+- AI-based recommendation system  
 
-Market segments significantly impact revenue performance
+---
 
-High lead-time bookings show higher cancellation risk
-
-Seasonal patterns influence hotel demand
-
-Discounts directly affect adjusted revenue
-
-Predictive forecasting helps in strategic planning
-
-🚀 Future Enhancements
-
-Integration with real-time hotel booking APIs
-
-Machine Learning forecasting models (Python/ML)
-
-Automated AI recommendation system
-
-Advanced predictive pricing models
-
-🤖Project Link:
-    
-    Report : https://app.powerbi.com/groups/me/reports/373a65eb-259a-4eb0-81a1-4504e2753c43?ctid=9206f595-4edd-4d55-b874-c330b03c51d7&pbi_source=linkShare
-
-
-
-👨‍💻 Author
-
-Vemuri Venkata Sathwik Kumar
-B.Tech CSE (AIML)
+## 👨‍💻 Author
+**Vemuri Venkata Sathwik Kumar**  
+B.Tech CSE (AIML)  
 AI Driven Hotel Revenue Analysis Project
