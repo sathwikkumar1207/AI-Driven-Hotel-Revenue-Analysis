@@ -1,9 +1,6 @@
 # 🏨 AI Driven Hotel Revenue Analysis (Power BI Project)
 
-## 🌐 Live Dashboard
-👉 https://app.powerbi.com/groups/me/reports/373a65eb-259a-4eb0-81a1-4504e2753c43?ctid=9206f595-4edd-4d55-b874-c330b03c51d7&pbi_source=linkShare  
 
----
 
 ## 📌 Project Overview
 This project presents an **AI-driven hotel revenue analysis dashboard** developed using Power BI. It analyzes historical hotel booking data (2015–2020) to generate actionable insights on revenue trends, customer behavior, cancellations, and future demand forecasting.
@@ -65,7 +62,7 @@ The project leverages **business intelligence + AI-powered visuals** to support 
 
 ## 📊 1. Revenue Intelligence Dashboard
 
-![Revenue Dashboard](images/Screenshot 2026-02-28 200737.png)
+![Revenue Dashboard](screenshots/Screenshot 2026-02-28 200737.png)
 
 ### 🔍 Description:
 This dashboard provides a comprehensive view of revenue performance across different dimensions.
@@ -84,7 +81,7 @@ This dashboard provides a comprehensive view of revenue performance across diffe
 
 ## 👥 2. Customer & Guest Analytics Dashboard
 
-![Customer Dashboard](images/Screenshot 2026-02-28 200803.png)
+![Customer Dashboard](screenshots/Screenshot 2026-02-28 200803.png)
 
 ### 🔍 Description:
 This dashboard focuses on understanding customer behavior and booking patterns.
@@ -104,7 +101,7 @@ This dashboard focuses on understanding customer behavior and booking patterns.
 
 ## ⚠️ 3. Loss, Cancellation & Risk Analysis Dashboard
 
-![Loss Dashboard](images/Screenshot 2026-02-28 200816.png)
+![Loss Dashboard](screenshots/Screenshot 2026-02-28 200816.png)
 
 ### 🔍 Description:
 This dashboard analyzes cancellations and their financial impact.
@@ -124,7 +121,7 @@ This dashboard analyzes cancellations and their financial impact.
 
 ## 🤖 4. AI Future Forecast & Strategic Analysis
 
-![AI Dashboard](images/Screenshot 2026-02-28 200833.png)
+![AI Dashboard](screenshots/Screenshot 2026-02-28 200833.png)
 
 ### 🔍 Description:
 This dashboard leverages AI-powered visuals to predict future trends and identify key business drivers.
@@ -166,6 +163,11 @@ This dashboard leverages AI-powered visuals to predict future trends and identif
 - Machine learning forecasting models  
 - Dynamic pricing optimization  
 - AI-based recommendation system  
+
+---
+
+## 🌐 Live Dashboard
+👉 https://app.powerbi.com/groups/me/reports/373a65eb-259a-4eb0-81a1-4504e2753c43?ctid=9206f595-4edd-4d55-b874-c330b03c51d7&pbi_source=linkShare  
 
 ---
 
