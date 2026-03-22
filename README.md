@@ -62,7 +62,7 @@ The project leverages **business intelligence + AI-powered visuals** to support 
 
 ## 📊 1. Revenue Intelligence Dashboard
 
-![Revenue Dashboard](screenshots/Screenshot 2026-02-28 200737.png)
+![Revenue Dashboard](screenshots of dashboard/Screenshot 2026-02-28 200737.png)
 
 ### 🔍 Description:
 This dashboard provides a comprehensive view of revenue performance across different dimensions.
